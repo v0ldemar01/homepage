@@ -1,0 +1,57 @@
+main {
+  background: url(../images/got.jpeg);
+  -moz-background-size: 100%; 
+  -webkit-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 50%; 
+}
+.contacts li a.facebook:hover {
+  color: #3b5998;
+}
+.contacts li a.twitter:hover {
+  color: #3dcaee;
+}
+.contacts li a.instagram:hover {
+  color: #ec1354;
+}
+.contacts li a.mail:hover {
+  color: rgb(70, 6, 6);
+}
+.contacts li a.skype:hover {
+  color: #00aff0;
+}
+.contacts li a.phone:hover {
+  color: rgb(87, 32, 82);
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  transition: color 0.35s ease;
+}
+
+.social-link:hover .social-title::after {
+  transition: width 0.5s ease;
+  width: 0;
+}
+
+.social-link:hover .social-icon {
+  animation: zoom-in 0.75s ease;
+}
+
+.social-link:hover.facebook {
+  color: #3c5a99;
+}
+.social-link:hover.twitter {
+  color: #1da1f2;
+}
+.social-link:hover.instagram {
+  color: #3f729b;
+}
+.social-link:hover.email {
+  color: #d44638;
+}
+.list li:hover{
+  transform: scale(1.05);
+  background-color: rgba(245, 12, 12, 0.884);
+}
